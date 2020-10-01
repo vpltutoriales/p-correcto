@@ -12,19 +12,16 @@
     
 } 
 
-#third-section h3 {
-    font-size: 50pt;
-    color: #3e37cc;
-    font-family: Arial;
-    text-shadow: 1px 1px 1px #969696;
-}
+  li:hover {
+    background:#ff2e63;
+    border-radius: 50px;
+  }
+  #abajo:hover{
+    background:#ff2e63;    
+  }
+   
+  
 
-#six-section h3 {
-    font-size: 50pt;
-    color: #ffffff;
-    font-family: Arial;
-    text-shadow: 1px 1px 1px #969696;
-}
 
 
 .container .about-gallery {
