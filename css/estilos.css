@@ -1,0 +1,43 @@
+#raya {
+
+    border-bottom: 6px solid #3e37cc;
+    width: 790px;
+    margin-bottom: 18px;
+} 
+#rayas {
+
+    border-bottom: 4px solid #000000;
+    width: 420px;
+    margin-bottom: 50px;
+    
+} 
+
+#third-section h3 {
+    font-size: 50pt;
+    color: #3e37cc;
+    font-family: Arial;
+    text-shadow: 1px 1px 1px #969696;
+}
+
+#six-section h3 {
+    font-size: 50pt;
+    color: #ffffff;
+    font-family: Arial;
+    text-shadow: 1px 1px 1px #969696;
+}
+
+
+.container .about-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px;
+}
+.container .about-gallery img {
+    width: calc(33.333% - 10px);
+    height: 300px;
+    margin: 10px 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
