@@ -23,6 +23,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/downloaded/logo/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="img/downloaded/logo/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/downloaded/logo/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="manifest" href="img/downloaded/logo/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/downloaded/logo/favicon/ms-icon-144x144.png">
@@ -50,8 +51,8 @@
     <header>
 
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3e37cc;;">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #808080;">
+            <div class="container" >
 
                 <!-- Collapse button -->
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -63,7 +64,7 @@
                     <!-- Links -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Acerca de
+                            <a class="nav-link" href="#third-section">Acerca de
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -93,21 +94,34 @@
     </header>
 
     <main>
+        
         <!-- First Section -->
-        <div class="container-fluid" id="first-section" >
-  
-            <div class="container flex-column flex-center">
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                
+              <div class="carousel-item active" data-interval="10000">
+                <img src="img/downloaded/photo-1498050108023-c5249f4df085.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-interval="2000">
+                             
 
-                <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Software Development</h1>
-                <br></br>
-                <h3 class="text-center" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Lisbeth Corporán</h3>
-                <div class="flex-row">
-                    <button href="" id="abajo"class="btn btn-md btn-outline-primary "style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius:20px;">Leer Más</button>
-
-                </div>
-
+                <img src="img/downloaded/Canva - Black and Gray Laptop Computer Turned on Doing Computer Codes.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/downloaded/photo-1547658719-da2b51169166.jpg" style="width: 100px;" class="d-block w-100" alt="...">
+              </div>
             </div>
-        </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          
+          </div>
         <!--/First Section-->
 
 
@@ -289,6 +303,11 @@
         AOS.init();
         new WOW().init();
     </script>
+      <!-- SLIDER -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!-- end SLIDER -->
 </body>
 
 </html>
